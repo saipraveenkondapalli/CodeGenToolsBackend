@@ -19,3 +19,4 @@ class FakeDataView(APIView):
 class FakeDataFieldsApiView(APIView):
     def get(self, request):
         return Response(fake_data_generator.all_fields())
+
